@@ -1,0 +1,63 @@
+name: React Start, JSON Servers, and Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Trigger the workflow on push to the `main` branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the code
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Step 2: Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Step 4: Build the React application
+      - name: Build React app
+        run: npm run build
+
+      # Step 5: Deploy React app to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+
+      # Step 6: Start JSON Server for `db.json`
+      - name: Start JSON Server (db.json)
+        run: nohup npx json-server --watch db.json --port 5000 &
+
+      # Step 7: Start JSON Server for `another-admin.json`
+      - name: Start JSON Server (another-admin.json)
+        run: nohup npx json-server --watch another-admin.json --port 4000 &
+
+      # Step 8: Expose servers with Localhost Run (Optional for URLs)
+      - name: Expose JSON Servers with Localhost Run
+        run: |
+          npm install -g localtunnel
+          nohup lt --port 5000 --subdomain react-dbserver > db_url.txt &
+          nohup lt --port 4000 --subdomain react-adminserver > admin_url.txt &
+          sleep 5
+        env:
+          LT_DB_SUBDOMAIN: react-dbserver
+          LT_ADMIN_SUBDOMAIN: react-adminserver
+
+      # Step 9: Show exposed URLs
+      - name: Output Tunnel URLs
+        run: |
+          echo "DB Server URL:"
+          cat db_url.txt
+          echo "Admin Server URL:"
+          cat admin_url.txt
