@@ -1,0 +1,303 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Classic Silver Watch",
+      "rating": 4.5,
+      "brand": "Brand A",
+      "color": "Silver",
+      "gender": "Unisex",
+      "price": 149.99,
+      "offers": "10% off",
+      "description": "Elegant silver watch with a stainless steel band.",
+      "image": "image1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Luxury Gold Watch",
+      "rating": 4.8,
+      "brand": "Brand B",
+      "color": "Gold",
+      "gender": "Male",
+      "price": 299.99,
+      "offers": "15% off",
+      "description": "Luxurious gold watch with a leather strap.",
+      "image": "image2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Sporty Blue Watch",
+      "rating": 4.2,
+      "brand": "Brand C",
+      "color": "Blue",
+      "gender": "Female",
+      "price": 99.99,
+      "offers": "5% off",
+      "description": "Sporty watch with a comfortable silicone band.",
+      "image": "image3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Classic Black Watch",
+      "rating": 4.7,
+      "brand": "Brand D",
+      "color": "Black",
+      "gender": "Male",
+      "price": 129.99,
+      "offers": "20% off",
+      "description": "Classic black watch with a minimalist design.",
+      "image": "image4.jpeg"
+    },
+    {
+      "id": "5",
+      "name": "Elegant Rose Gold Watch",
+      "rating": 4.9,
+      "brand": "Brand E",
+      "color": "Rose Gold",
+      "gender": "Female",
+      "price": 249.99,
+      "offers": "25% off",
+      "description": "Elegant rose gold watch with a mesh band.",
+      "image": "image5.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Digital Black Watch",
+      "rating": 4.3,
+      "brand": "Brand F",
+      "color": "Black",
+      "gender": "Unisex",
+      "price": 89.99,
+      "offers": "10% off",
+      "description": "Modern digital watch with multiple features.",
+      "image": "image6.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Vintage Brown Watch",
+      "rating": 4.6,
+      "brand": "Brand G",
+      "color": "Brown",
+      "gender": "Male",
+      "price": 199.99,
+      "offers": "30% off",
+      "description": "Vintage watch with a classic leather band.",
+      "image": "image7.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Chic White Watch",
+      "rating": 4.4,
+      "brand": "Brand H",
+      "color": "Black",
+      "gender": "Female",
+      "price": 109.99,
+      "offers": "20% off",
+      "description": "Chic white watch with a ceramic band.",
+      "image": "image8.jpg"
+    },
+    {
+      "id": "1a41",
+      "name": "Classic",
+      "rating": "4.0",
+      "brand": "Brand Z",
+      "color": "Brown",
+      "gender": "Female",
+      "price": "90",
+      "offers": "No Offers",
+      "description": "Nothing",
+      "image": "image9.jpeg"
+    }
+  ],
+  "users": [
+    {
+      "id": "447d",
+      "userName": "Sanjay",
+      "email": "sanjudddd400@gmail.com",
+      "password": "Sanjay@2002",
+      "phoneNo": "8907564579",
+      "cart": [
+        {
+          "id": "1",
+          "name": "Classic Silver Watch",
+          "rating": 4.5,
+          "brand": "Brand A",
+          "color": "Silver",
+          "gender": "Unisex",
+          "price": 149.99,
+          "offers": "10% off",
+          "description": "Elegant silver watch with a stainless steel band.",
+          "image": "image1.jpg",
+          "quantity": 1
+        }
+      ],
+      "orderHistory": [
+        {
+          "id": 1725863646865,
+          "products": [
+            {
+              "id": "1",
+              "name": "Classic Silver Watch",
+              "rating": 4.5,
+              "brand": "Brand A",
+              "color": "Silver",
+              "gender": "Unisex",
+              "price": 149.99,
+              "offers": "10% off",
+              "description": "Elegant silver watch with a stainless steel band.",
+              "image": "image1.jpg",
+              "quantity": 3
+            }
+          ],
+          "deliveryDate": "2024-09-11",
+          "orderDate": "2024-09-09",
+          "shippingDetails": {
+            "email": "sanjudddd400@gmail.com",
+            "address": "Vinaiyagar",
+            "phone": "78969087645",
+            "paymentType": "Cash on Delivery"
+          }
+        },
+        {
+          "id": 1725864098681,
+          "products": [
+            {
+              "id": "5",
+              "name": "Elegant Rose Gold Watch",
+              "rating": 4.9,
+              "brand": "Brand E",
+              "color": "Rose Gold",
+              "gender": "Female",
+              "price": 249.99,
+              "offers": "25% off",
+              "description": "Elegant rose gold watch with a mesh band.",
+              "image": "image5.jpg",
+              "quantity": 3
+            }
+          ],
+          "deliveryDate": "2024-09-11",
+          "orderDate": "2024-09-09",
+          "shippingDetails": {
+            "email": "sanjudddd400@gmail.com",
+            "address": "Vinaiyagar",
+            "phone": "78969087645",
+            "paymentType": "Online Pay"
+          }
+        },
+        {
+          "id": 1726150349548,
+          "products": [
+            {
+              "id": "1",
+              "name": "Classic Silver Watch",
+              "rating": 4.5,
+              "brand": "Brand A",
+              "color": "Silver",
+              "gender": "Unisex",
+              "price": 149.99,
+              "offers": "10% off",
+              "description": "Elegant silver watch with a stainless steel band.",
+              "image": "image1.jpg",
+              "quantity": 1
+            }
+          ],
+          "deliveryDate": "2024-09-14",
+          "orderDate": "2024-09-12",
+          "shippingDetails": {
+            "email": "sanjudddd400@gmail.com",
+            "address": "Vinaiyagar",
+            "phone": "78969087645",
+            "paymentType": "Online Pay"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d256",
+      "userName": "Dharsan",
+      "email": "dharsan@gmail.com",
+      "password": "Dharsan@2002",
+      "phoneNo": "7890653423",
+      "cart": [],
+      "orderHistory": [
+        {
+          "id": 1725864319146,
+          "products": [
+            {
+              "id": "7",
+              "name": "Vintage Brown Watch",
+              "rating": 4.6,
+              "brand": "Brand G",
+              "color": "Brown",
+              "gender": "Male",
+              "price": 199.99,
+              "offers": "30% off",
+              "description": "Vintage watch with a classic leather band.",
+              "image": "image7.jpg",
+              "quantity": 1
+            }
+          ],
+          "deliveryDate": "2024-09-11",
+          "orderDate": "2024-09-09",
+          "shippingDetails": {
+            "email": "dharsan@gmail.com",
+            "address": "Kinathukadavu,Coimbatore",
+            "phone": "78969087649",
+            "paymentType": "Cash on Delivery"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15c3",
+      "userName": "Sanjay N",
+      "email": "sanjay500@gmail.com",
+      "password": "SanjayN@2002",
+      "phoneNo": "8956798890",
+      "cart": [
+        {
+          "id": "1",
+          "name": "Classic Silver Watch",
+          "rating": 4.5,
+          "brand": "Brand A",
+          "color": "Silver",
+          "gender": "Unisex",
+          "price": 149.99,
+          "offers": "10% off",
+          "description": "Elegant silver watch with a stainless steel band.",
+          "image": "image1.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "1",
+          "name": "Classic Silver Watch",
+          "rating": 4.5,
+          "brand": "Brand A",
+          "color": "Silver",
+          "gender": "Unisex",
+          "price": 149.99,
+          "offers": "10% off",
+          "description": "Elegant silver watch with a stainless steel band.",
+          "image": "image1.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "name": "Luxury Gold Watch",
+          "rating": 4.8,
+          "brand": "Brand B",
+          "color": "Gold",
+          "gender": "Male",
+          "price": 299.99,
+          "offers": "15% off",
+          "description": "Luxurious gold watch with a leather strap.",
+          "image": "image2.jpg",
+          "quantity": 1
+        }
+      ],
+      "orderHistory": [],
+      "active": true,
+      "banned": true
+    }
+  ]
+}

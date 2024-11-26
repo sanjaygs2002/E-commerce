@@ -1,0 +1,54 @@
+/* src/Shipping/Shipping.css */
+
+.shipping-container {
+    margin: 2rem auto;
+    max-width: 600px;
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shipping-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .shipping-form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .shipping-form input {
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .payment-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+  
+  .payment-options input {
+    margin-right: 0.5rem;
+  }
+  
+  .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  

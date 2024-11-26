@@ -1,0 +1,55 @@
+/* src/OrderHistory/OrderHistory.css */
+.order-history-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .order-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #0c0a0a;
+  }
+  
+  .order-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .product-image {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  .product-details {
+    flex: 1;
+    color: #f1ebeb;
+    
+  }
+  
+  .cancel-order-btn {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-order-btn:hover {
+    background-color: #c9302c;
+  }
+  .msg{
+    color: #f7150d;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
